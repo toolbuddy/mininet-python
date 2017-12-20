@@ -51,9 +51,18 @@ sudo python main.py
 
 ### Setting Performance Parameter
 
+* 在這個範例中，展示 mininet 的 API，除了剛剛做出創建 host, switch, link 等等操作之外，還可以控制幾項：
+    * link 的多項參數調整
+    * host 的使用資源
+* 還可以使用 iperf 的操作，讓兩個 host 做 iperf 測試 TCP bandwidth 
+
 ## Reference
 
 * Introduction of mininet - [Creating topologies](https://github.com/mininet/mininet/wiki/Introduction-to-Mininet#creating-topologies)
+
+* Introduction of mininet - [Setting performance parameters](https://github.com/mininet/mininet/wiki/Introduction-to-Mininet#setting-performance-parameters)
+
+
 
 ## Other
 
