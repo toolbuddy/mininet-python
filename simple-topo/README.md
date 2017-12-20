@@ -29,6 +29,7 @@ sudo python main.py
 
 ## Explain & Learn
 
+### Simple Topology
 * 先看到程式碼內`繼承 Topo`的 SingleSwitchTopo
     * Topo - [source code]
     * 可以看到在 `__init__` 的 constructor 最後呼叫了 build function
@@ -45,6 +46,10 @@ sudo python main.py
 
 這樣就可以產生你所建立的網路狀態!
 
+* setLogLevel
+    * `setLogLevel( 'info' | 'debug' | 'output' )`: set Mininet's default output level; 'info' is recommended as it provides useful information.
+
+### Setting Performance Parameter
 
 ## Reference
 
