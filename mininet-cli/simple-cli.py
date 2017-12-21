@@ -21,6 +21,8 @@ def start_CLI():
     net.start()
     # enter into mininet CLI
     CLI(net)
+    # "exit" the cli
+    print "Close the CLI"
     net.stop()
 
 
