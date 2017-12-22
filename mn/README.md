@@ -51,3 +51,18 @@ option | dict name | key: value
     mininet> mycmd foo
     mycmd invoked for <mininet.net.Mininet object at 0x7fd7235fb9d0> with line foo
     ```
+## Try
+
+* command
+```
+sudo mn --custom cmd.py -v output
+```
+
+* display
+```
+~/tests/mininet-python/mn(master*) » sudo mn --custom cmd.py -v output 
+mininet> help mycmd
+mycmd is an example command to extend the Mininet CLI
+mininet> mycmd foo
+mycmd invoked for <mininet.net.Mininet object at 0x7f0c68919150> with line foo
+```
