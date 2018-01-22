@@ -17,3 +17,7 @@ Each folder have its `READMD.md` to explain the program.
 * mininet-cli
     * 利用 mininet API 的 CLI 來運行
     * 搭配 simple-topo 裏面學習的內容，可以在搭建實驗網路後開啟 CLI 來做操作
+    
+## 視覺化操作 mininet - `miniEdit` 使用
+
+* [參考連結](http://www.brianlinkletter.com/how-to-use-miniedit-mininets-graphical-user-interface/)
